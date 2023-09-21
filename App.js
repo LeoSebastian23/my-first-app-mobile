@@ -10,8 +10,8 @@ export default function App() {
 
   return (
     <ThemeContext.Provider value={theme}>
-      <View style={theme === 'dark' ? styles.container : [styles.container, { backgroundColor: '#d2b48c' }]}>
-        <Text style={styles.title}>Hola mundo!</Text>
+      <View style={theme === 'dark' ? styles.container : [styles.container, { backgroundColor: '#e6e6fa' }]}>
+        <Text style={styles.title}>Bienvenido a mi primer App!</Text>
         <Image style={styles.image}
           source={image01}
         />
@@ -38,9 +38,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#008b8b',
-  },
+  }, 
   title: {
-    fontSize: 30
+    fontSize: 30,
+    backgroundColor: '#90ee90',
+    padding:10,
+    borderRadius:10,
+    textAlign: "center"
   },
   image: {
     width: 200,
