@@ -17,7 +17,7 @@ export default function App() {
         />
         <Button
           title="Presiona el boton"
-          onPress={() => Alert.alert('Bienvenido a la aplicación!')}
+          onPress={() => Alert.alert('Bienvenido a esta pequeña aplicacion. Es un gusto conocerte!')}
         />
         <Switch
           value={theme === 'light'}
